@@ -6,10 +6,10 @@ function App() {
   const [message, setMessage] = useState('');
 
   const handleClick = () => {
-    if (input.trim().toLowerCase() === 'вода') {
-      setMessage('✅ Правильно, океан складається повністю з води.');
+    if (input.trim().toLowerCase() === 'voda') {
+      setMessage('✅ Presne tak, oceán sa skladá výlučne z vody.');
     } else {
-      setMessage('❌ Ні, спробуй ще раз.\nПідказка: З чого складається океан?');
+      setMessage('❌ Nie, skús to znova.\nNápoveda: Prečo vzniká oceán?');
     }
   };
 
@@ -43,14 +43,14 @@ function App() {
         </div>
 
         <div className="password-section">
-          <label htmlFor="password">Введіть пароль: </label>
+          <label htmlFor="password">Zadajte heslo: </label>
           <input
             type="text"
             id="password"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button onClick={handleClick}>Відправити</button>
+          <button onClick={handleClick}>Odoslať</button>
         </div>
 
         {message && (
