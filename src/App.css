@@ -1,0 +1,79 @@
+/* Центруємо весь контент по екрану */
+.app {
+  background-color: #121212;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Аватар Джокера */
+.joker-img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Привітальний текст */
+.welcome p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0;
+}
+
+/* Відео */
+.video-container {
+  margin-bottom: 2rem;
+}
+
+/* Секція пароля */
+.password-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+/* Поле вводу */
+input[type="text"],
+input[type="password"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Кнопка */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+/* Повідомлення */
+.message {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #00ffcc;
+}
