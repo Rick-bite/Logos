@@ -18,27 +18,24 @@ function App() {
       className="app"
       style={{
         backgroundImage: 'url(/Logos.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="overlay">
         <div className="welcome">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/en/9/98/Joker_%28The_Dark_Knight%29.jpg"
-            alt="QUEST"
-            className="joker-img"
-          />
-<p>
-  Pridajte sa k nám na našu malú hru pre vás
-</p>
-
+          <h1 style={{ marginBottom: '0.5rem' }}>QUEST</h1>
+          <p>Pridajte sa k nám na našu malú hru pre vás</p>
         </div>
 
         <div className="video-container">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/EXeTwQWrcwY"
-            title="Joker"
+            src="https://www.youtube.com/embed/Gaclt6pIwrg"
+            title="logos"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
